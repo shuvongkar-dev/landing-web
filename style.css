@@ -180,3 +180,28 @@ nav> img{
     display: flex;
 }
 
+/* focus section style */
+
+.focus-section{
+    max-width: 1140px;
+    margin: 116px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-btn{
+    width: 195px;
+    padding: 12px 36px;
+}
+
+#focus-img{
+    border-radius: 48px;
+}
