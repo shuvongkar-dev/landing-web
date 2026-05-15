@@ -13,7 +13,12 @@
     background-color: #4E47FF;
     color: #ffffff;
     border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
+
 
 
 /* navbar style */
@@ -31,10 +36,20 @@ nav> img{
     height: 50px;
     width: 100px;
 }
+    
+/* hero-section style */
 
-nav> button{
-    padding: 12px 36px;
-    border-radius: 10px;
+.hero-section{
+    background-image: url(/Assets/Hero-bg.png);
+}
+
+.hero-content{
+    text-align: center;
+    padding: 155px 0;
+}
+
+.hero-title{
     font-weight: bold;
-    cursor: pointer;
+    font-size: 65px;
+    margin-bottom: 35px;
 }
