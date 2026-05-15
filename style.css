@@ -239,3 +239,42 @@ nav> img{
     border: 1px solid rgba(214, 221, 237, 1);
     border-radius: 10px;
 }
+
+/* footer style */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+footer> img{
+    width: 290px;
+    height: 120px;
+}
+
+footer ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+
+button:hover{
+    background-color: aqua;
+    transition-duration: 0.5s;
+    color: black;
+    box-shadow: 5px 5px 10px #4E47FF;
+
+}
